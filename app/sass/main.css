@@ -1,0 +1,115 @@
+/* line 3, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+body {
+  font-size: 14px; }
+
+/* line 6, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+.hotels_wrap {
+  display: flex;
+  padding: 10px;
+  margin: 0 auto;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 80%;
+  flex-direction: row; }
+
+/* line 17, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+.hotel {
+  flex: 0 0 30%;
+  height: auto;
+  border: 1px solid grey;
+  box-shadow: -1px 0px 17px 5px rgba(0, 0, 0, 0.75);
+  margin-bottom: 30px;
+  background: #fff;
+  padding: 10px;
+  position: relative;
+  min-height: 400px; }
+
+/* line 28, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+.hotel img {
+  max-width: 100%;
+  min-width: 220px;
+  border: 1px solid lightgrey;
+  border-radius: 5px; }
+
+/* line 35, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+.hotel_title {
+  font-size: 1.6em; }
+
+/*	text-shadow: -1px -1px 2px rgba(150, 150, 150, 1);*/
+/* line 39, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+.hotel_description {
+  font-size: 1.1em; }
+
+/* line 43, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+.moreBtn {
+  border-radius: 5px;
+  padding: 5px 5px;
+  font-size: 1em;
+  outline: none;
+  text-decoration: none;
+  margin: 10px;
+  color: black;
+  background-color: #fff;
+  box-shadow: 0 5px 0 0 darkgrey;
+  position: absolute;
+  bottom: 0;
+  left: 5px; }
+
+/* line 57, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+.moreBtn:active {
+  transform: translate(0px, 5px);
+  box-shadow: 0 1px 0 0; }
+
+/* line 61, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+.moreBtn:hover {
+  background-color: lightgrey; }
+
+/* line 64, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+.dataInput {
+  font-size: .95em;
+  position: absolute;
+  bottom: 0; }
+  /* line 69, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+  .dataInput input {
+    border-radius: 5px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 10px;
+    margin: 2px; }
+
+/* line 78, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+.comments-section {
+  background: yellow;
+  width: 100%; }
+
+/* line 82, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+.addNews {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  display: none; }
+
+@media screen and (max-width: 480px) {
+  /* line 95, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+  .hotels_wrap {
+    flex-direction: column; }
+  /* line 98, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+  .addNews {
+    width: 200px;
+    margin: 0 auto; } }
+
+/* line 106, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+.none {
+  display: none; }
+
+/* line 109, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+.popup {
+  flex: 0 0 100%;
+  order: -1; }
+
+/*# sourceMappingURL=main.css.map */
