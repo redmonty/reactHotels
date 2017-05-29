@@ -109,6 +109,12 @@ body {
   width: 30%;
   display: none; }
 
+.del-btn {
+  display: none; }
+
+.visible-btn {
+  display: inline; }
+
 @media screen and (max-width: 480px) {
   .hotels_wrap {
     -webkit-box-orient: vertical;

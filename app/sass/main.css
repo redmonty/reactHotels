@@ -94,20 +94,28 @@ body {
   width: 30%;
   display: none; }
 
+/* line 94, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+.del-btn {
+  display: none; }
+
+/* line 96, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+.visible-btn {
+  display: inline; }
+
 @media screen and (max-width: 480px) {
-  /* line 95, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+  /* line 102, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
   .hotels_wrap {
     flex-direction: column; }
-  /* line 98, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+  /* line 105, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
   .addNews {
     width: 200px;
     margin: 0 auto; } }
 
-/* line 106, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+/* line 113, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
 .none {
   display: none; }
 
-/* line 109, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
+/* line 116, /Users/Redmonty/Desktop/react/5/app/sass/main.sass */
 .popup {
   flex: 0 0 100%;
   order: -1; }
